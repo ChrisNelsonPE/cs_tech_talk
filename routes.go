@@ -37,15 +37,15 @@ var routes = Routes{
 		Index,
 	},
 	Route{
-		"TodoIndex",
+		"BeerIndex",
 		"GET",
-		"/todos",
-		TodoIndex,
+		"/beers",
+		BeerIndex,
 	},
 	Route{
-		"TodoShow",
+		"BeerShow",
 		"GET",
-		"/todos/{todoId}",
-		TodoShow,
+		"/beers/{beerId}",
+		BeerShow,
 	},
 }
